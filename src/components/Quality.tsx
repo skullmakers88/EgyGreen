@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Award, Shield, CheckCircle, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const imageList = [
-  { src: "src/images/1.png", alt: "ISO Certification" },
-  { src: "src/images/2.png", alt: "Global GAP Certification" },
-  { src: "src/images/5.png", alt: "HACCP Certification" },
-  { src: "src/images/4.png", alt: "Global GAP Certification" },
-  { src: "src/images/3.png", alt: "HACCP Certification" },
+  { src: "/images/1.png", alt: "ISO Certification" },
+  { src: "/images/2.png", alt: "Global GAP Certification" },
+  { src: "/images/5.png", alt: "HACCP Certification" },
+  { src: "/images/4.png", alt: "Global GAP Certification" },
+  { src: "/images/3.png", alt: "HACCP Certification" },
 ];
 
 const Quality: React.FC = () => {

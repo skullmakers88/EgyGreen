@@ -5,7 +5,7 @@ export let products: Product[] = [
     id: 1,
     name: 'Egyptian Fava Beans (Foul)',
     category: 'Legumes',
-    images: ['/src/images/Beans.png'],
+    images: ['/images/Beans.png'],
     description: 'Premium Egyptian fava beans, perfect for making the traditional Foul Medames.',
     isFeatured: true,
     isOrganic: true,

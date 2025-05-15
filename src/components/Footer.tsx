@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img
-                src="/src/images/logo.png"
+                src="/images/logo.png"
                 onClick={handleLogoClick}
                 alt="Logo"
                 className="h-20 w-22"
