@@ -68,15 +68,6 @@ const Header: React.FC = () => {
               <a href="/#about" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>About</a>
               <a href="/products" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Products</a>
               <a href="/quality" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Quality</a>
-              <div className="py-2">
-                <p className="font-medium text-gray-900 mb-2">Seasons</p>
-                <div className="pl-4 flex flex-col space-y-2">
-                  <a href="/#spring" className="text-sm text-gray-700 hover:text-primary-600" onClick={toggleMenu}>Spring Harvest</a>
-                  <a href="/#summer" className="text-sm text-gray-700 hover:text-primary-600" onClick={toggleMenu}>Summer Picks</a>
-                  <a href="/#fall" className="text-sm text-gray-700 hover:text-primary-600" onClick={toggleMenu}>Fall Favorites</a>
-                  <a href="/#winter" className="text-sm text-gray-700 hover:text-primary-600" onClick={toggleMenu}>Winter Selection</a>
-                </div>
-              </div>
               <a href="/#contact" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Contact</a>
               <a href="/#contact" className="btn btn-primary mt-2" onClick={toggleMenu}>Get In Touch</a>
             </nav>
