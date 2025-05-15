@@ -170,7 +170,7 @@ const Contact: React.FC = () => {
                   <Phone className="h-5 w-5 mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <a href="tel:+1234567890" className="text-white/80 hover:text-white">
+                    <a href="tel:+201154448174" className="text-white/80 hover:text-white">
                       (+2) 01154448174
                     </a>
                   </div>
