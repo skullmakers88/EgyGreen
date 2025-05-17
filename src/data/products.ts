@@ -9,7 +9,7 @@ export let products: Product[] = [
     description: 'Premium Egyptian fava beans, perfect for making the traditional Foul Medames.',
     isFeatured: true,
     isOrganic: true,
-    isSeasonalPick: true
+    
   },
   
   {
@@ -36,7 +36,7 @@ export let products: Product[] = [
     category: 'Legumes',
     images: ['https://cdn.pixabay.com/photo/2023/02/06/17/34/lentils-7772450_1280.jpg'],
     description: 'Premium quality lentils, perfect for Koshari and soups.',
-    isSeasonalPick: true
+    
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ export let products: Product[] = [
     category: 'Vegetables',
     images: ['https://cdn.pixabay.com/photo/2016/12/17/18/49/garlic-1914116_1280.jpg'],
     description: 'Flavorful Egyptian garlic, known for its strong aroma and taste.',
-    isSeasonalPick: true
+    
   },
   {
     id: 7,
@@ -79,7 +79,7 @@ export let products: Product[] = [
     description: 'Sweet, succulent dates packed with rich flavor and natural energy — a wholesome and satisfying snack cherished in many traditions.',
     isFeatured: true,
     isOrganic: true,
-    isSeasonalPick: true
+    
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ export let products: Product[] = [
     description: 'Earthy, tender sweet potatoes with a naturally rich sweetness — a hearty and nourishing delight enjoyed in kitchens around the world.',
     isFeatured: true,
     isOrganic: true,
-    isSeasonalPick: true
+    
   },
   {
     id: 11,
@@ -99,8 +99,18 @@ export let products: Product[] = [
     description: 'Pungent and flavorful onions that add depth and aroma — a versatile staple at the heart of countless savory dishes worldwide.',
     isFeatured: true,
     isOrganic: true,
-    isSeasonalPick: true
+    
   },
+  {
+    id: 12,
+    name: 'Pasta',
+    category: 'Pasta',
+    images: ['https://cdn.pixabay.com/photo/2020/05/10/15/10/tagliatelle-5154360_1280.jpg'],
+    description: 'Pungent and flavorful onions that add depth and aroma — a versatile staple at the heart of countless savory dishes worldwide.',
+    isFeatured: true,
+    isOrganic: true,
+    
+  }
 ];
 
 // Function to update products

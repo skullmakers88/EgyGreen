@@ -8,7 +8,7 @@ const ProductsPage: React.FC = () => {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const sectionRef = useRef<HTMLElement>(null);
   
-  const categories = ['All','Fruits' ,'Vegetables', 'Legumes'];
+  const categories = ['All','Fruits' ,'Vegetables', 'Legumes', 'pasta'];
   
   useEffect(() => {
     if (activeCategory === 'All') {
@@ -19,9 +19,9 @@ const ProductsPage: React.FC = () => {
   }, [activeCategory]);
   
   return (
-    <section id="products" className="py-20" ref={sectionRef}>
+    <section id="products" className="" ref={sectionRef}>
     <div className="min-h-screen pt-20">
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="container">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

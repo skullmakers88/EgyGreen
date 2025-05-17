@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('/images/backgroundd.png')",
+          backgroundImage: "url('/images/ChatGPT Image May 17, 2025, 12_20_50 AM.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -21,8 +21,8 @@ const Hero: React.FC = () => {
             From Nature to Your Table
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 animate-slide-up" style={{animationDelay: '0.2s'}}>
-            Premium fruits and vegetables harvested at peak freshness,
-            delivered with care for exceptional flavor and nutrition.
+            Premium fruits, vegetables, legumes, and pasta, 
+            carefully selected and delivered fresh to ensure exceptional flavor and nutrition.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up" style={{animationDelay: '0.4s'}}>
             <a href="#products" className="btn btn-primary bg-white text-primary-700 hover:bg-gray-100">

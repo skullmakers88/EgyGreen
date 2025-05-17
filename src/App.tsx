@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Admin from './components/Admin';
 import { setupScrollAnimation, setupHeaderScroll } from './utils/animation';
 import { initializeProducts } from './data/products';
+import SeasonCalendar from './components/calender';
 
 function App() {
   React.useEffect(() => {
@@ -32,7 +33,7 @@ function App() {
               <Hero />
               <About />
               <Products />
-              <SeasonalSection />
+              <SeasonCalendar />
               <Testimonials />
               <Contact />
             </main>

@@ -8,7 +8,7 @@ const ProductsPage: React.FC = () => {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const sectionRef = useRef<HTMLElement>(null);
   
-  const categories = ['All','Fruits' ,'Vegetables', 'Legumes'];
+  const categories = ['All','Fruits' ,'Vegetables', 'Legumes', 'Pasta'];
   
   useEffect(() => {
     if (activeCategory === 'All') {
