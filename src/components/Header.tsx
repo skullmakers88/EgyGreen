@@ -42,7 +42,7 @@ const Header: React.FC = () => {
             <a href="/products" className="font-medium text-gray-900 hover:text-primary-600 transition-colors">Products</a>
             <a href="/quality" className="font-medium text-gray-900 hover:text-primary-600 transition-colors">Quality</a>
           
-            <a href="/#calender" className="font-medium text-gray-900 hover:text-primary-600 transition-colors">Calender</a>
+            <a href="/#calender" className="font-medium text-gray-900 hover:text-primary-600 transition-colors">Calendar</a>
             <a href="/#contact" className="btn btn-primary">Get In Touch</a>
           </nav>
           
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
               <a href="/#about" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>About</a>
               <a href="/products" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Products</a>
               <a href="/quality" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Quality</a>
-              <a href="/#contact" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Calender</a>
+              <a href="/#contact" className="font-medium text-gray-900 hover:text-primary-600 py-2 transition-colors" onClick={toggleMenu}>Calendar</a>
               <a href="/#calender" className="btn btn-primary mt-2" onClick={toggleMenu}>Get In Touch</a>
             </nav>
           </div>
