@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('/images/ChatGPT Image May 17, 2025, 12_20_50 AM.png')",
+          backgroundImage: "url('public/images/ChatGPT Image May 17, 2025, 12_20_50 AM.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
