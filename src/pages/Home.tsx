@@ -305,7 +305,7 @@ const Home: React.FC = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
-                src="https://images.pexels.com/photos/3593922/pexels-photo-3593922.png" 
+                src="public/images/16246.jpg" 
                 alt="Delivery Vehicle" 
                 className="rounded-lg shadow-lg w-full h-80 object-contain"
               />
