@@ -34,7 +34,7 @@ export const featuredProducts: Product[] = [
     description: 'Hearty, nutrient-dense Egyptian fava beans—sun-dried and ready for your kitchen creations.',
     category: 'Legumes',
     images: [
-      'src/data/images/Beans.png',
+      '/images/Beans.png',
       'https://cdn.pixabay.com/photo/2025/02/12/06/36/beans-9400499_1280.jpg'
       
     ],
