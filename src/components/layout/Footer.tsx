@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div>
             <Link to="/" className="flex items-center mb-4">
               <div className="mr-2">
-                <img src="src/data/images/Logo.png" alt="" className="h-20 w-50 pt-1" />
+                <img src="/images/Logo.png" alt="" className="h-20 w-50 pt-1" />
               </div>
               
             </Link>
