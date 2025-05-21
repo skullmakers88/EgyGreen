@@ -272,7 +272,7 @@ const Home: React.FC = () => {
           className="absolute top-0 right-0 w-1/2 h-full hidden lg:block"
         >
           <img 
-  src="public/images/16246.jpg" 
+  src="/images/16246.jpg" 
   alt="Delivery Vehicle" 
   className="w-full h-full object-contain"
   style={{ transform: 'scaleX(-1)' }}
