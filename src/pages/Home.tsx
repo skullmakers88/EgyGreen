@@ -38,7 +38,7 @@ const Home: React.FC = () => {
         ref={backgroundRef}
         className="absolute inset-0 bg-cover bg-center transform scale-110"
         style={{ 
-          backgroundImage: "url('src/data/images/backgroundd.png')",
+          backgroundImage: "url('/images/backgroundd.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           willChange: 'transform',
