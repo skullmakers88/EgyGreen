@@ -80,6 +80,8 @@ const Products: React.FC = () => {
   const vegetables = getProductsByCategory('Vegetables');
   const fruits = getProductsByCategory('Fruits');
   const herbs = getProductsByCategory('Legumes');
+  const pasta = getProductsByCategory('Pasta');
+
   
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -169,6 +171,17 @@ const Products: React.FC = () => {
               >
                 Legumes
               </button>
+              <button
+  className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
+    filterCategory === 'Pasta' 
+      ? 'bg-primary-600 text-white' 
+      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+  }`}
+  onClick={() => setFilterCategory('Pasta')}
+>
+  Pasta
+</button>
+
             </div>
             
             {/* Special Filters */}
@@ -222,6 +235,17 @@ const Products: React.FC = () => {
             >
               Legumes
             </button>
+            <button 
+  className={`whitespace-nowrap px-3 py-2 text-sm font-medium ${
+    activeSection === 'pasta' 
+      ? 'text-primary-700 border-b-2 border-primary-500' 
+      : 'text-gray-600 hover:text-primary-600'
+  }`}
+  onClick={() => scrollToSection('pasta')}
+>
+  Pasta
+</button>
+
             <button 
               className={`whitespace-nowrap px-3 py-2 text-sm font-medium ${
                 activeSection === 'organic' 
@@ -345,6 +369,29 @@ const Products: React.FC = () => {
               </div>
             </div>
           </section>
+          {/* Pasta Section */}
+<section id="pasta" className="section py-8 bg-white">
+  <div className="container-custom">
+    <h2 className="text-3xl font-semibold mb-6">Pasta</h2>
+    <p className="text-gray-600 mb-8 max-w-3xl">
+      Our artisanal pasta is crafted with the finest grains and traditional methods for a rich taste and perfect texture in every bite.
+    </p>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {pasta.map((product, index) => (
+        <motion.div
+          key={product.id}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: index * 0.1 }}
+          viewport={{ once: true }}
+        >
+          <ProductCard product={product} />
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
           {/* Organic Section */}
           <section id="organic" className="section py-8 bg-gray-50">
