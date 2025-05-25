@@ -163,7 +163,7 @@ const Products: React.FC = () => {
               </button>
               <button
                 className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
-                  filterCategory === 'herbs' 
+                  filterCategory === 'legumes' 
                     ? 'bg-primary-600 text-white' 
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
@@ -231,7 +231,7 @@ const Products: React.FC = () => {
                   ? 'text-primary-700 border-b-2 border-primary-500' 
                   : 'text-gray-600 hover:text-primary-600'
               }`}
-              onClick={() => scrollToSection('herbs')}
+              onClick={() => scrollToSection('legumes')}
             >
               Legumes
             </button>
@@ -348,14 +348,14 @@ const Products: React.FC = () => {
           </section>
 
           {/* Herbs Section */}
-          <section id="herbs" className="section py-8">
+          <section id="legumes" className="section py-8">
             <div className="container-custom">
               <h2 className="text-3xl font-semibold mb-6">Legumes</h2>
               <p className="text-gray-600 mb-8 max-w-3xl">
                 Add depth and complexity to your dishes with our fresh,legumes. made with care.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {herbs.map((product, index) => (
+                {legumes.map((product, index) => (
                   <motion.div
                     key={product.id}
                     initial={{ opacity: 0, y: 20 }}
