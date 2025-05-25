@@ -79,7 +79,7 @@ const Products: React.FC = () => {
 
   const vegetables = getProductsByCategory('Vegetables');
   const fruits = getProductsByCategory('Fruits');
-  const herbs = getProductsByCategory('Legumes');
+  const legumes = getProductsByCategory('Legumes');
   const pasta = getProductsByCategory('Pasta');
 
   
