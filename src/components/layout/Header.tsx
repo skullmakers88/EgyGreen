@@ -191,6 +191,13 @@ const Header = () => {
                           Legumes
                         </Link>
                         <Link 
+                          to="/products#pasta" 
+                          className="block py-1 text-gray-700 hover:text-primary-600"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          Pasta
+                        </Link>
+                        <Link 
                           to="/products#organic" 
                           className="block py-1 text-gray-700 hover:text-primary-600"
                           onClick={() => setIsMenuOpen(false)}
