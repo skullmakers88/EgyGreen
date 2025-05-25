@@ -74,7 +74,7 @@ const Header = () => {
                     onMouseEnter={() => setProductsDropdownOpen(true)}
                     onMouseLeave={() => setProductsDropdownOpen(false)}
                   >
-                    {['vegetables', 'fruits', 'legumes', 'organic'].map((item) => (
+                    {['vegetables', 'fruits', 'herbs', 'organic'].map((item) => (
                       <Link
                         key={item}
                         to={`/products#${item}`}
