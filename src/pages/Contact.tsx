@@ -172,8 +172,8 @@ const Contact: React.FC = () => {
                   <Phone className="h-5 w-5 mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <a href="tel:+201154448174" className="text-white/80 hover:text-white">
-                      (+2) 01154448174
+                    <a href="tel:+201144145670" className="text-white/80 hover:text-white">
+                      (+20) 1144145670
                     </a>
                   </div>
                 </div>
@@ -182,8 +182,8 @@ const Contact: React.FC = () => {
                   <Mail className="h-5 w-5 mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <a href="mailto:info@freshharvest.com" className="text-white/80 hover:text-white">
-                      info@egygreen.com
+                    <a href="mailto:Omar.ghanem@gramaxexp.com" className="text-white/80 hover:text-white">
+                      Omar.ghanem@gramaxexp.com
                     </a>
                   </div>
                 </div>
@@ -193,9 +193,9 @@ const Contact: React.FC = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-white/80">
-                      Plot No. 6017 - <br />
-                      Industrial zone No. 6 - <br/>
-                      El-Sadat City, Egypt
+                      El BANAFSEG 5 - <br />
+                      ZAKRIA AHMED ST - <br/>
+                      CAIRO, EGYPT
                     </p>
                   </div>
                 </div>
