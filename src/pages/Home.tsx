@@ -234,7 +234,7 @@ const Home: React.FC = () => {
       <section className="section bg-gray-50">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h2 className="mb-4 text-primary-800">Explore the fresh fruits and vegetables we proudly grow!</h2>
+            <h2 className="mb-4 text-primary-800">Explore the fresh Products we proudly make & grow!</h2>
             <p className="max-w-3xl mx-auto text-gray-600">
               Discover our seasonal highlights and customer favorites. All of our produce is harvested at the peak of freshness and delivered promptly to ensure exceptional quality.
             </p>
