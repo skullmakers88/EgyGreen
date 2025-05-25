@@ -74,7 +74,7 @@ const Header = () => {
                     onMouseEnter={() => setProductsDropdownOpen(true)}
                     onMouseLeave={() => setProductsDropdownOpen(false)}
                   >
-                    {['vegetables', 'fruits', 'herbs', 'organic'].map((item) => (
+                    {['vegetables', 'fruits', 'legumes', 'organic'].map((item) => (
                       <Link
                         key={item}
                         to={`/products#${item}`}
@@ -188,7 +188,7 @@ const Header = () => {
                           className="block py-1 text-gray-700 hover:text-primary-600"
                           onClick={() => setIsMenuOpen(false)}
                         >
-                          Herbs
+                          Legumes
                         </Link>
                         <Link 
                           to="/products#organic" 
