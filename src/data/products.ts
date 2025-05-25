@@ -187,6 +187,19 @@ export const allProducts: Product[] = [
     details: 'Our Tuscan kale is grown for optimal texture and flavor, perfect for salads, smoothies, or cooking.'
   },
   {
+    id: 'Farfalle ',
+    name: 'Farfalle Pasta',
+    description: 'Bow-tie shaped farfalle with a firm bite, perfect for capturing sauces and adding charm to any pasta dish.',
+    category: 'Pasta',
+    images: [
+      'https://cdn.pixabay.com/photo/2024/07/01/14/31/pasta-8865344_1280.jpg',
+      'https://cdn.pixabay.com/photo/2014/12/08/09/45/pasta-560657_1280.jpg'
+    ],
+    isOrganic: false,
+    isSeasonal: false,
+    details: ''
+  },
+  {
     id: 'Cucumber',
     name: 'Cucumber',
     description: 'Cool, crunchy cucumbers bursting with freshness and perfect for every plate.',
@@ -196,6 +209,19 @@ export const allProducts: Product[] = [
       'https://cdn.pixabay.com/photo/2018/11/11/19/43/cucumbers-3809535_1280.jpg'
     ],
     isOrganic: true,
+    isSeasonal: false,
+    details: ''
+  },
+  {
+    id: 'Penne Pasta',
+    name: 'Penne Pasta',
+    description: 'Tube-shaped penne with ridged sides, ideal for holding hearty sauces and crafting the perfect pasta dish.',
+    category: 'Pasta',
+    images: [
+      'https://cdn.pixabay.com/photo/2023/04/26/19/56/pasta-7953208_1280.jpg',
+      'https://cdn.pixabay.com/photo/2023/06/16/14/08/penne-8068095_1280.jpg'
+    ],
+    isOrganic: false,
     isSeasonal: false,
     details: ''
   }
