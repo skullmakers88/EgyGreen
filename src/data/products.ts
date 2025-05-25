@@ -99,7 +99,7 @@ export const featuredProducts: Product[] = [
   {
     id: 'Fresh Spaghetti Pasta',
     name: 'Fresh Spaghetti Pasta',
-    description: 'Spaghetti made from premium durum wheat, perfectly shaped for soaking up sauces and creating the ideal pasta dish.',
+    description: 'Spaghetti made from premium durum wheat, perfectly shaped for soaking up sauces.',
     category: 'Pasta',
     images: [
       'https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg',
