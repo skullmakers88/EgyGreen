@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               
             </Link>
             <p className="text-gray-400 mb-4">
-              Providing premium quality fresh produce since 1985. Our fruits and vegetables are grown with care and harvested at the peak of freshness.
+              Providing premium quality fresh produce since 2003. Our fruits and vegetables are grown with care and harvested at the peak of freshness.
             </p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" className="text-gray-400 hover:text-white transition-colors duration-200" aria-label="Facebook">
