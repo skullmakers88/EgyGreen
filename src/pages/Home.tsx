@@ -19,7 +19,7 @@ import { featuredProducts } from '../data/products';
 const Home: React.FC = () => {
   const backgroundRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
-  useEffect(() => {
+ useEffect(() => {
     const handleScroll = () => {
       if (backgroundRef.current) {
         const scrolled = window.scrollY;
@@ -33,7 +33,11 @@ const Home: React.FC = () => {
 
   // Scroll to top on route change
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const timeout = setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 50); // small delay to ensure DOM is ready
+
+    return () => clearTimeout(timeout);
   }, [location.pathname]);
   return (
     <div>
