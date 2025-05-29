@@ -13,55 +13,55 @@ const galleryImages: GalleryImage[] = [
   {
     id: '1',
     src: 'https://cdn.pixabay.com/photo/2018/04/14/09/57/strawberry-field-3318639_1280.jpg',
-    alt: 'Tomato harvest at Assen Produce',
+    alt: '',
     category: 'farm'
   },
   {
     id: '2',
     src: 'https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg',
-    alt: 'Fresh leafy greens',
+    alt: '',
     category: 'produce'
   },
   {
     id: '3',
     src: 'https://images.pexels.com/photos/2751755/pexels-photo-2751755.jpeg',
-    alt: 'Farm fields at sunrise',
+    alt: '',
     category: 'farm'
   },
   {
     id: '4',
     src: 'https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg',
-    alt: 'Assortment of colorful peppers',
+    alt: '',
     category: 'produce'
   },
   {
     id: '6',
     src: 'https://cdn.pixabay.com/photo/2017/04/06/01/08/carrot-2206895_1280.jpg',
-    alt: 'Freshly harvested carrots',
+    alt: '',
     category: 'produce'
   },
   {
     id: '7',
     src: 'https://cdn.pixabay.com/photo/2020/06/01/14/23/strawberries-5246835_1280.jpg',
-    alt: 'Tractor in the field',
+    alt: '',
     category: 'farm'
   },
   {
     id: '8',
     src: 'https://images.pexels.com/photos/2284170/pexels-photo-2284170.jpeg',
-    alt: 'Colorful tomato varieties',
+    alt: '',
     category: 'produce'
   },
   {
     id: '9',
     src: 'https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg',
-    alt: 'Fresh seasonal berries',
+    alt: '',
     category: 'produce'
   },
   {
     id: '10',
     src: 'https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg',
-    alt: 'Sunset over the farm',
+    alt: '',
     category: 'farm'
   },
 
