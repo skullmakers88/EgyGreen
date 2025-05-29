@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Check, Truck, Award, Leaf } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useLocation } from 'react-router-dom';
 import Contact from './Contact';
 
 
@@ -17,17 +18,23 @@ import { featuredProducts } from '../data/products';
 
 const Home: React.FC = () => {
   const backgroundRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
   useEffect(() => {
-      const handleScroll = () => {
-        if (backgroundRef.current) {
-          const scrolled = window.scrollY;
-          backgroundRef.current.style.transform = `translateY(${scrolled * 0.5}px)`;
-        }
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-      return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    const handleScroll = () => {
+      if (backgroundRef.current) {
+        const scrolled = window.scrollY;
+        backgroundRef.current.style.transform = `translateY(${scrolled * 0.5}px)`;
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location.pathname]);
   return (
     <div>
       {/* New Hero Section */}
