@@ -33,12 +33,20 @@ const Home: React.FC = () => {
 
   // Scroll to top on route change
   useEffect(() => {
+  // Check if there's a hash in the URL
+  if (location.hash) {
+    const hash = location.hash.replace('#', '');
+    
     const timeout = setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, 50); // small delay to ensure DOM is ready
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100); // slight delay to ensure the DOM has rendered
 
     return () => clearTimeout(timeout);
-  }, [location.pathname]);
+  }
+}, [location]);
   return (
     <div>
       {/* New Hero Section */}
