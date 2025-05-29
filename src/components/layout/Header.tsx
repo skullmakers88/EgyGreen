@@ -100,7 +100,7 @@ const Header = () => {
 
           {/* Contact button */}
           <a
-  href="#contact"
+  href="/#contact"
   className="hidden md:block btn btn-primary"
 >
   Get In Touch
@@ -151,7 +151,7 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About Us
-                </NavLink>
+                </NavLink>t 
                 <div className="space-y-1">
                   <button
                     className="nav-link flex items-center"
