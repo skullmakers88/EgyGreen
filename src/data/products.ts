@@ -31,7 +31,7 @@ export const featuredProducts: Product[] = [
   {
     id: 'Egyptian Fava Beans (Foul)',
     name: 'Egyptian Fava Beans (Foul)',
-    description: 'Hearty, nutrient-dense Egyptian fava beans—sun-dried and ready for your kitchen creations.',
+    description: 'Hearty, nutrient-dense Egyptian fava beanssun-dried and ready for your kitchen creations.',
     category: 'Legumes',
     images: [
       '/images/Beans.png',

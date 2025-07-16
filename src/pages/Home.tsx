@@ -80,7 +80,7 @@ const Home: React.FC = () => {
             <a href="#products" className="btn btn-primary">
               Our Products
             </a>
-            <a href="#contact" className="btn btn-secondary bg-transparent text-white border-white hover:bg-white/10">
+            <a href="#footer" className="btn btn-secondary bg-transparent text-white border-white hover:bg-white/10">
               Contact Us <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>
@@ -106,148 +106,6 @@ const Home: React.FC = () => {
       
       <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black to-transparent z-10"></div>
     </section>
-
-      {/* Features Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="mb-4 text-primary-800">Why Choose GRAMAX?</h2>
-              <p className="max-w-3xl mx-auto text-gray-600">
-                At GRAMAX, we pride ourselves on delivering the freshest, highest quality produce 
-                while maintaining sustainable farming practices and supporting local communities.
-              </p>
-            </motion.div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Feature 1 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="relative group"
-            >
-              <div className="bg-white rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
-                <div className="absolute top-0 left-0 w-full h-2 bg-primary-500 rounded-t-xl"></div>
-                <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
-                    <Leaf className="w-8 h-8 text-primary-600" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-4 text-center">Premium Quality</h3>
-                  <p className="text-gray-600 text-center">
-                    Our produce is grown using the best agricultural practices and harvested at peak freshness for maximum flavor and nutrition. We carefully select each variety for its superior taste and nutritional profile.
-                  </p>
-                </div>
-                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                  <Link to="/about" className="text-primary-600 hover:text-primary-700 font-medium flex items-center">
-                    Learn More
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Feature 2 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="relative group"
-            >
-              <div className="bg-white rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
-                <div className="absolute top-0 left-0 w-full h-2 bg-secondary-500 rounded-t-xl"></div>
-                <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 bg-secondary-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
-                    <Check className="w-8 h-8 text-secondary-600" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-4 text-center">Sustainable Farming</h3>
-                  <p className="text-gray-600 text-center">
-                    We're committed to environmentally responsible farming techniques that protect our land for future generations. Our methods focus on soil health, water conservation, and biodiversity.
-                  </p>
-                </div>
-                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                  <Link to="/about" className="text-secondary-600 hover:text-secondary-700 font-medium flex items-center">
-                    Learn More
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Feature 3 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              viewport={{ once: true }}
-              className="relative group"
-            >
-              <div className="bg-white rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
-                <div className="absolute top-0 left-0 w-full h-2 bg-accent-500 rounded-t-xl"></div>
-                <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
-                    <Truck className="w-8 h-8 text-accent-600" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-4 text-center">Farm to Table</h3>
-                  <p className="text-gray-600 text-center">
-                    From harvest to delivery, we maintain the cold chain to ensure your produce arrives fresh and ready to enjoy. Our efficient logistics ensure same-day delivery to local customers.
-                  </p>
-                </div>
-                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                  <Link to="/about" className="text-accent-600 hover:text-accent-700 font-medium flex items-center">
-                    Learn More
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Feature 4 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              viewport={{ once: true }}
-              className="relative group"
-            >
-              <div className="bg-white rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
-                <div className="absolute top-0 left-0 w-full h-2 bg-primary-500 rounded-t-xl"></div>
-                <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
-                    <Award className="w-8 h-8 text-primary-600" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-4 text-center">Quality Certified</h3>
-                  <p className="text-gray-600 text-center">
-                    Our farms meet the highest industry standards with certifications that guarantee quality and food safety. We maintain rigorous quality control throughout our entire operation.
-                  </p>
-                </div>
-                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                  <Link to="/about" className="text-primary-600 hover:text-primary-700 font-medium flex items-center">
-                    Learn More
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* Products Preview Section */}
       <section className="section bg-gray-50">
@@ -281,12 +139,147 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* Why Choose GRAMAX? Section with Video Background */}
+      <section className="section bg-white relative overflow-hidden" style={{position: 'relative'}}>
+        {/* Video Background for Why Choose GRAMAX? */}
+        <div className="absolute inset-0 w-full h-full z-0 pointer-events-none">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+            style={{ objectFit: 'cover' }}
+            src="/videos/7031084_Above_Aerial_3840x2160.mp4"
+          />
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+        <div className="container-custom relative z-10">
+          <div className="text-center mb-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="mb-4 text-primary-100">Why Choose GRAMAX?</h2>
+              <p className="max-w-3xl mx-auto text-gray-100">
+                At GRAMAX, we pride ourselves on delivering the freshest, highest quality produce 
+                while maintaining sustainable farming practices and supporting local communities.
+              </p>
+            </motion.div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Feature 1 */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="relative group"
+            >
+              <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
+                <div className="absolute top-0 left-0 w-full h-2 bg-primary-500 rounded-t-xl"></div>
+                <div className="flex flex-col items-center">
+                  <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
+                    <Leaf className="w-8 h-8 text-primary-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-center text-primary-100">Premium Quality</h3>
+                  <p className="text-gray-100 text-center">
+                    Our produce is grown using the best agricultural practices and harvested at peak freshness for maximum flavor and nutrition. We carefully select each variety for its superior taste and nutritional profile.
+                  </p>
+                </div>
+                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                  
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Feature 2 */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="relative group"
+            >
+              <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
+                <div className="absolute top-0 left-0 w-full h-2 bg-secondary-500 rounded-t-xl"></div>
+                <div className="flex flex-col items-center">
+                  <div className="w-16 h-16 bg-secondary-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
+                    <Check className="w-8 h-8 text-secondary-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-center text-primary-100">Sustainable Farming</h3>
+                  <p className="text-gray-100 text-center">
+                    We're committed to environmentally responsible farming techniques that protect our land for future generations. Our methods focus on soil health, water conservation, and biodiversity.
+                  </p>
+                </div>
+                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                  
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Feature 3 */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="relative group"
+            >
+              <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
+                <div className="absolute top-0 left-0 w-full h-2 bg-accent-500 rounded-t-xl"></div>
+                <div className="flex flex-col items-center">
+                  <div className="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
+                    <Truck className="w-8 h-8 text-accent-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-center text-primary-100">Farm to Table</h3>
+                  <p className="text-gray-100 text-center">
+                    From harvest to delivery, we maintain the cold chain to ensure your produce arrives fresh and ready to enjoy. Our efficient logistics ensure same-day delivery to local customers.
+                  </p>
+                </div>
+                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                  
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Feature 4 */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="relative group"
+            >
+              <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg p-8 h-[28rem] transform transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl">
+                <div className="absolute top-0 left-0 w-full h-2 bg-primary-500 rounded-t-xl"></div>
+                <div className="flex flex-col items-center">
+                  <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mb-6 transform transition-transform group-hover:scale-110">
+                    <Award className="w-8 h-8 text-primary-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-center text-primary-100">Quality Certified</h3>
+                  <p className="text-gray-100 text-center">
+                    Our farms meet the highest industry standards with certifications that guarantee quality and food safety. We maintain rigorous quality control throughout our entire operation.
+                  </p>
+                </div>
+                <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                  
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* About Preview Section */}
       <section className="section bg-white relative overflow-hidden">
         <motion.div 
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.3, type: "spring", stiffness: 100 }}
+          transition={{ duration: 3, type: "spring", stiffness: 100 }}
           viewport={{ once: false }}
           className="absolute top-0 right-0 w-1/2 h-full hidden lg:block"
         >
@@ -309,11 +302,18 @@ const Home: React.FC = () => {
             >
               <h2 className="mb-4 text-primary-800">Supply Chain</h2>
               <p className="text-gray-600 mb-4">
-                The process starts when a client places an order. Quality control inspects the produce in the field to ensure it meets the client’s standards. Then, the produce is harvested and packed either on-site or at the packhouse, based on the client’s needs. After packing, it’s cooled and checked again before being loaded for delivery. This ensures you receive fresh produce directly from the field, tailored to your specifications.
+              The process begins when a client places an order. Our trusted suppliers — operating across more than 1,200 acres of fertile land — cultivate a wide variety of fruits, vegetables, legumes, and also produce pasta using a blend of traditional practices and modern techniques.
+
+From that point on, Gramax takes charge of every step of the quality process. Our experienced quality control team inspects produce directly at the source — in the field or at the production facility — to ensure it meets the client’s exact standards.
+
+Once approved, the goods are harvested or prepared and then packed either on-site or at a dedicated packhouse, depending on the client's needs. After packing, Gramax manages the cooling process and conducts a second round of inspections before coordinating delivery.
+
+This ensures that clients receive fresh, high-quality products — grown and made by our supplier network, but carefully quality-assured and managed by Gramax every step of the way.
               </p>
-              <p className="text-gray-600 mb-6">
-                Our farms span over 1,200 acres of fertile land, where we cultivate a diverse range of fruits, vegetables using both traditional wisdom and innovative farming techniques.
-              </p>
+              {/* <p className="text-gray-600 mb-6">
+              Once approved, the goods are harvested or prepared and then packed either on-site or at a dedicated packhouse, depending on the client's needs.
+              After packing, Gramax manages cooling and performs a second quality check before coordinating delivery. This ensures that clients receive fresh, high-quality products—grown and made by our suppliers, but quality-assured and managed by Gramax every step of the way.
+              </p> */}
               <Link to="/about" className="btn btn-outline">
                 Read Our Full Story
               </Link>
@@ -322,7 +322,7 @@ const Home: React.FC = () => {
               <motion.img 
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
+                transition={{ duration: 3 }}
                 viewport={{ once: true }}
                 src="public/images/16246.jpg" 
                 alt="Delivery Vehicle" 
@@ -375,7 +375,7 @@ const Home: React.FC = () => {
 
       {/* CTA Section */}
 
-      <Contact/>
+     
     </div>
   );
 };

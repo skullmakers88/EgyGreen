@@ -6,7 +6,7 @@ export const newsItems: NewsItem[] = [
     title: 'Sustainable Farming Practices at Assen Produce',
     excerpt: 'Learn about our commitment to environmental stewardship and sustainable agriculture.',
     content: `
-      <p>At Assen Produce, sustainability isn't just a buzzword—it's at the core of everything we do. We believe that responsible farming practices are essential not only for protecting our environment but also for producing the highest quality fruits and vegetables.</p>
+      <p>At Assen Produce, sustainability isn't just a buzzwordit's at the core of everything we do. We believe that responsible farming practices are essential not only for protecting our environment but also for producing the highest quality fruits and vegetables.</p>
       
       <h3>Water Conservation</h3>
       <p>Water is one of our most precious resources, especially in agriculture. That's why we've implemented drip irrigation systems across our farms, reducing water usage by up to 60% compared to traditional methods. We also collect rainwater and use soil moisture sensors to ensure we're only watering when necessary.</p>
@@ -23,7 +23,7 @@ export const newsItems: NewsItem[] = [
       <h3>Biodiversity</h3>
       <p>We maintain hedgerows and natural habitats around our fields to support local wildlife and pollinators. This not only helps the environment but also improves crop yields through better pollination.</p>
       
-      <p>By choosing Assen Produce, you're not just getting the freshest, most flavorful fruits and vegetables—you're also supporting a business committed to preserving the planet for future generations.</p>
+      <p>By choosing Assen Produce, you're not just getting the freshest, most flavorful fruits and vegetablesyou're also supporting a business committed to preserving the planet for future generations.</p>
     `,
     image: 'https://images.pexels.com/photos/247597/pexels-photo-247597.jpeg',
     date: 'April 15, 2025',
@@ -89,7 +89,7 @@ export const newsItems: NewsItem[] = [
       <p><strong>Try them:</strong> Fresh in salads, macerated with a touch of sugar for shortcake, or simply eaten out of hand.</p>
       
       <h4>Peas</h4>
-      <p>Fresh peas—whether snow, snap, or English—are a fleeting spring pleasure. Their natural sweetness starts converting to starch as soon as they're picked, so enjoy them quickly.</p>
+      <p>Fresh peaswhether snow, snap, or Englishare a fleeting spring pleasure. Their natural sweetness starts converting to starch as soon as they're picked, so enjoy them quickly.</p>
       <p><strong>Try them:</strong> Quickly blanched and added to pasta, mashed into a spring pea spread for toast, or raw in salads.</p>
       
       <h4>Radishes</h4>

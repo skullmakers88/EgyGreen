@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
             <a href="#products" className="btn btn-primary">
               Our Products
             </a>
-            <a href="#contact" className="btn btn-secondary bg-transparent text-white border-white hover:bg-white/10">
+            <a href="#footer" className="btn btn-secondary bg-transparent text-white border-white hover:bg-white/10">
               Contact Us <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>

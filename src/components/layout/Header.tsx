@@ -100,7 +100,7 @@ const Header = () => {
 
           {/* Contact button */}
           <a
-  href="/#contact"
+  href="#footer"
   className="hidden md:block btn btn-primary"
 >
   Get In Touch
@@ -238,13 +238,13 @@ const Header = () => {
               </nav>
 
               <div className="mt-6">
-                <Link 
-                  to="/contact" 
+                <a
+                  href="#footer"
                   className="w-full block text-center btn btn-primary"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Get In Touch
-                </Link>
+                </a>
               </div>
             </div>
           </motion.div>
