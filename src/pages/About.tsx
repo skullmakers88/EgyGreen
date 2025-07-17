@@ -72,7 +72,7 @@ const About: React.FC = () => {
             playsInline
             className="w-full h-full object-cover"
             style={{ objectFit: 'cover' }}
-            src="/videos/7031084_Above_Aerial_3840x2160.mp4"
+            src="/videos/84624-585553977_medium.mp4"
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
@@ -84,7 +84,7 @@ const About: React.FC = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h2 className="mb-4 text-primary-100">Why Choose GRAMAX?</h2>
+              <h2 className="mb-4 text-primary-100">The Values We Uphold</h2>
               <p className="max-w-3xl mx-auto text-gray-100">
                 At GRAMAX, we pride ourselves on delivering the freshest, highest quality produce 
                 while maintaining sustainable farming practices and supporting local communities.
@@ -109,7 +109,9 @@ const About: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-4 text-center text-primary-100">Rooted in Relationships</h3>
                   <p className="text-gray-100 text-center">
-                  We believe the best produce starts with strong partnerships. Gramax invests in long-term relationships with trusted growers and producers who share our commitment to integrity, reliability, and excellence.
+                  We believe the best produce starts with strong partnerships. <br />
+                  Gramax invests in long-term relationships with trusted growers and producers who share our commitment to integrity, 
+                  reliability, and excellence.
                   </p>
                 </div>
                 <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">

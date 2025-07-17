@@ -74,7 +74,7 @@ const Home: React.FC = () => {
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-8 animate-slide-up" style={{animationDelay: '0.2s'}}>
             Delivering excellence in fresh fruits and vegetables 
-            to customers worldwide since 2003.
+            to customers worldwide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up" style={{animationDelay: '0.4s'}}>
             <a href="#products" className="btn btn-primary">
